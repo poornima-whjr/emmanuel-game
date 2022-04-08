@@ -61,7 +61,7 @@ function draw() {
        // spaceship.x = spaceship.x - 6;
      // }
 
-      if (keyDown("space")) {
+      if (keyWentDown("space")) {
       createLaser()
         //spaceship.x = spaceship.x + 6;
       }
